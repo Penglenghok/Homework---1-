@@ -5,6 +5,10 @@ public class Prog1 {
     public static void main(String[] args) {
 
         Random ran = new Random();
+
+        double randomNumber = Math.random();
+        System.out.println(randomNumber);
+
         double x = ran.nextInt(1,9);
         double y = ran.nextInt(3,14);
         double resX = Math.pow(Math.PI,x);
